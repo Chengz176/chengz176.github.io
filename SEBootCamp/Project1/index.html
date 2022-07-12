@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link rel="icon" href="./images/logos/logo.png" type="image/png">
+        <link href="./styles/template.css" rel="stylesheet">
+        <link href="./styles/home.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img id="logo-img" class="header-img" src="./images/logos/logo.png" alt="airplane logo">
+            <h1  id="heading" class="heading emerge">Travel to Iceland</h1>
+            <img id="globe" class="header-img" src="./images/photos/IcelandOnGlobe.png" alt="Location of Iceland on globe">
+        </header>
+        <div class="menu">
+            <input id="toggle-menu" type="checkbox">
+            <label for="toggle-menu" class="toggle-menu menu-background">
+                >>
+            </label>
+            <ul class="menu-options menu-background">
+                <li><a href="#attractions" class="slide-in">Attractions</a></li>
+                <li><a href="#events" class="slide-in">Events</a></li>
+                <li><a href="#feed" class="slide-in">Newsfeed</a></li>
+                <li><a href="#cost" class="slide-in">Travel Cost</a></li>
+                <li><a href="#contact" class="slide-in">Contact Info</a></li>
+            </ul>
+        </div>
+        <div id="attractions" class="content">
+            <h2>Attractions</h2>
+            <hr>
+            <p><em>Iceland</em> is a country of sharp contrasts. A place where fire and ice co-exist. Where dark winters are offset by the summer's midnight sun. A country where insular existence has spurred a rich and vibrant culture.</p>
+            <div class="attraction-container">
+                <figure class="attraction-img-container">
+                    <a href="./northernNight.html"><img class="attraction-img" src="./images/photos/northernLight1.png" alt="Northern Lights"></a>
+                    <figcaption><i>Northern Lights in Iceland</i></figcaption>
+                </figure>
+                <p>The Aurora Borealis takes its name from the Roman goddess of dawn, Aurora, and the Greek name for the north wind, Boreas. From September to April, Iceland is a hotspot for this magnificent lightshow.<br>The Aurora Borealis, more commonly referred to as the Northern Lights is a natural phenomenon created when particles emitted by the sun interact with the atmosphere in the Earth's magnetic field. This releases energy, causing peculiar luminous green streaks across the skies.</p>
+                <br>
+            </div>
+            <div class="attraction-container">
+                <figure class="attraction-img-container-2">
+                    <a href="./hiking.html"><img class="attraction-img" src="./images/photos/iceHiking1.png" alt="Ice Hiking"></a>
+                    <figcaption><i>Ice climbing & hiking on glaciers</i></figcaption>
+                </figure> 
+                <p>When making a trip to Iceland, it is hard not to pay special attention to the country's namesake-namely, its 4,500 square miles of glacier. Ice climbing on the glaciers is practiced year-round and takes place mainly on the Sólheimajökull and Svínafellsjökull glaciers in the south of Iceland, to which day trips are offered from Reykjavík (and Skaftafell).</p>
+                <br>
+            </div>
+        </div>
+        <div id="events" class="content">
+            <h2>Upcoming Events</h2>
+            <hr>
+            <ul class="events-list">
+                <li><a href="#">Reykjavík Culture Night</a></li>
+                <li><a href="#">Laugavegur Ultra Marathon</a></li>
+            </ul>
+        </div>
+        <div id="feed" class="content">
+            <h2>Newsfeed</h2>
+            <hr>
+            <div class="feed-container">
+                <h3><i>Norse mythology published as divination cards</i></h3>
+                <p>Llewellyn Publications will be publishing 81-card divination deck bringing the wisdom of Norse mythology to life.</p>
+            </div>
+            <div class="feed-container">
+                <h3><i>Hollywood Reporter and Screen Daily give Icelandic director Elfar Aðalsteinsson great reviews</i></h3>
+                <p>nd of Sentence, by director Elfar Aðalsteins, receives very positive reviews in leading film industry magazines such as Hollywood. The film's two leading actiors, John Hawkes and Logan Lerman, are also praised in both reviews. Hawkes has quite a few films under his belt and was nominated for an Oscar for Winter's Bones and young Lerman is best known for his role in The Perks of Being a Wallflower. Icelandic actor Ólafur Darri Ólafsson also has a small part in End of Sentence.</p>
+            </div>
+        </div>
+        <div id="cost" class="content">
+            <h2>Travel Cost</h2>
+            <hr>
+            <table class="cost-table">
+                <tr>
+                    <th class="table-heading table-categories"></th>
+                    <th class="table-heading"><strong>Price</strong></th>
+                </tr>
+                <tr>
+                    <td class="table-categories">Ticket from JFK</td>
+                    <td>$1100</td>
+                </tr>
+                <tr>
+                    <td class="table-categories">Hotel for 2 per night</td>
+                    <td>$150</td>
+                </tr>
+                <tr>
+                    <td class="table-categories">Food per person per day</td>
+                    <td>$80</td>
+                </tr>
+                <tr>
+                    <td class="table-categories"><strong>Total Cost per day per person</strong></td>
+                    <td><mark>$430</mark></td>
+                </tr>
+            </table>
+        </div>
+        <div id="contact" class="content">
+            <h2>Contact Info</h2>
+            <hr>
+            <div class="contact-container">
+                <img src="./images/logos/phone.png" alt="Phone logo">
+                <div class="contact-info">
+                    <a href="tel:12345678999">1(234)-567-8999</a>
+                </div>     
+            </div>
+            <div class="contact-container">
+                <img src="./images/logos/email.png" alt="Email logo">
+                <div class="contact-info">
+                    <a href="mailto:me@example.com">me@example.com</a>
+                </div>
+            </div>
+            <div class="contact-container">
+                <img src="./images/logos/instagram.png" alt="Instagram logo">
+                <div class="contact-info">
+                    <a href="#">Follow us at instagram</a>
+                </div>
+            </div>
+        </div>
+
+
+        <footer>
+            <nav>
+                <a href="./index.html" class="slide-in">Home</a>
+                <a href="./northernNight.html" class="slide-in">The Northern Lights</a>
+                <a href="./hiking.html" class="slide-in">Hiking on Glaciers</a>
+                <a href="./contact.html" class="slide-in">Contact</a>
+            </nav>
+            <div><b>2022 @ Project 1</b></div>
+        </footer>
+    </body>
+</html>
