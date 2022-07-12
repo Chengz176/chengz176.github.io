@@ -1,0 +1,133 @@
+.menu {
+    position: fixed;
+    background: transparent;
+    left: 0;
+    top: 20vh;
+    text-align: center;
+    z-index: 100;
+
+}
+
+.menu-background {
+    background-color: whitesmoke;
+}
+
+.menu-options {
+    width: 0vw;
+    height: 15vh;
+    text-align: center;
+    float: right;
+    list-style-type: none;
+    padding: 0;
+    border-radius: 0 0 20px 0;
+    font-size: 0;
+}
+
+.menu-options li a {
+    color: darkgrey;
+}
+.toggle-menu {
+    float: right;
+    border-radius: 0 20px 20px 0;
+    padding: 0 1.5vw 7vh 1.5vw;
+    font-size: 1em;
+    color: darkgrey;
+}
+
+#toggle-menu {
+    display: none;
+}
+
+#toggle-menu:checked ~ ul {
+    width: 30vw;
+    font-size: 1em;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+.attraction-container {
+    margin: 20px;
+}
+
+.attraction-img-container, .attraction-img-container-2 {
+    width: 30%;
+}
+
+.attraction-img-container {
+    margin: 0 20px 20px 0;
+    float: left;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.attraction-img-container-2 {
+    margin: 0 0 20px 20px;
+    float: right;
+}
+
+.attraction-img {
+    width: 100%;
+}
+
+p ~ br {
+    clear: both;
+}
+
+.events-list li {
+    margin: 20px 0;
+}
+
+.feed-container {
+    margin: 20px;
+}
+
+.feed-container  p {
+    text-indent: 2em;
+}
+
+.cost-table {
+    border: 2px solid darkblue;
+    width: 50%;
+    height: 200px;
+}
+
+.table-heading {
+    border-bottom: 2px solid darkblue;
+}
+
+.table-categories {
+    border-right: 2px double darkblue;
+}
+
+mark {
+    background-color: gold;
+}
+
+.contact-container img {
+    height: 100%;
+    width: 10%;
+    border-radius: 50%;
+    float: left;
+}
+
+.contact-container {
+    margin: 20px;
+    height: 10vh;
+    width: 100%;
+}
+
+.contact-info {
+    position: relative;
+    top: 25%;
+    left: 1%;
+}
+
+@media screen and (max-width: 600px) {
+    .attraction-img-container, .attraction-img-container-2 {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+}
